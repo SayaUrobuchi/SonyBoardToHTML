@@ -1,0 +1,43 @@
+body
+{
+	color: #CCCCCC;
+	background-color: #111111;
+	font-family: MingLiU, Consolas, Monospace;
+}
+
+a:link, a:hover, a:visited, a:active
+{
+	color: #cc6600;
+    border-bottom: 1px solid #cc6600;
+    text-decoration: none;
+}
+
+.article
+{
+	border-width: 2px;
+	border-color: #CCCCCC;
+	border-style: double;
+	width: 800px;
+	margin: 8px 8px 8px 8px;
+}
+
+.article > .title
+{
+	font-size: 24px;
+	border-width: 0px 0px 2px 0px;
+	border-style: solid;
+	padding: 4px 4px 4px 4px;
+}
+
+.article > .author
+{
+	border-width: 0px 0px 2px 0px;
+	border-style: solid;
+	padding: 4px 4px 4px 4px;
+}
+
+.article > .content
+{
+	white-space: pre;
+	padding: 8px 8px 8px 8px;
+}
